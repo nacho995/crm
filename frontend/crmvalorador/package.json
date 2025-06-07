@@ -1,0 +1,37 @@
+{
+  "name": "crmvalorador",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@vueuse/core": "^10.5.0",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.9",
+    "date-fns": "^2.30.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-vue-next": "^0.294.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.5.13",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.5",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^6.2.4",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  }
+}

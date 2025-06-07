@@ -1,0 +1,62 @@
+@import './base.css';
+
+/* Reset básico para ancho completo */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+}
+
+#app {
+  width: 100vw !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Asegurar que el contenido principal use todo el ancho */
+.main-content {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Responsive para pantallas grandes */
+@media (min-width: 1024px) {
+  .lg\\:pl-64 {
+    padding-left: 16rem !important;
+    width: 100vw !important;
+  }
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+}
